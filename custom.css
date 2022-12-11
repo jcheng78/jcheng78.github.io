@@ -1,0 +1,240 @@
+/* Sakura.css v1.3.1
+ * ================
+ * Minimal css theme.
+ * Project: https://github.com/oxalorg/sakura/
+ */
+/* Body */
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif;
+}
+#title{
+  padding: 5px 5px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  width: 100%;
+}
+
+#links{
+  margin-top:20px;
+  margin-bottom:10px;
+  display:inline-block; 
+}
+
+a{
+  border-radius:10px;
+  border: 10px solid silver;
+  border-color: rgb(161, 158, 137);
+  background-color: rgb(161, 158, 137);
+  font-family:sans-serif;
+  font-size: 20px; 
+
+}
+
+#basic-info{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#info{
+  font-weight:bold;
+}
+#info,#personal{
+  display:inline-block;
+  padding-inline: 50px;
+  text-align: left;
+}
+
+#intro{
+  background-color:grey;
+}
+
+#basic-info{
+  background-color:silver;
+}
+
+body {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+img{
+  margin-top: 10px;
+  width:35%;
+  
+}
+
+#aboutme h2{
+  text-align: center;
+}
+
+#aboutme{
+  text-align: left;
+  margin:auto;
+  width: 1000px;
+
+}
+#education{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#highschool,#college {
+  padding-top:20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+  width: 300px;
+  border: 1px solid silver;
+  margin-inline: 25px;
+  height:250px;
+  border-color:#f9f9f9;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+#highschool h4, #college h4{
+  padding-bottom:30px;
+  font-weight:bold;
+  color:rgb(44, 44, 44);
+}
+
+#form{
+  background-color:rgb(169, 183, 192);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#choice{
+  display: inline-block;
+}
+
+#form h4{
+  padding-bottom:10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1d7484;
+}
+a:hover {
+  color: #982c61;
+  border-bottom: 4px solid #ffffff;
+}
+a:visited {
+  color: #144f5a;
+}
+
+
+
+/* Pre and Code */
+
+
+
+thead {
+  position: left;
+}
+td,
+th {
+  padding: 0.5em;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #1d7484;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 1px solid #1d7484;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+.button:focus:enabled,
+.button:hover:enabled,
+button:focus:enabled,
+button:hover:enabled,
+input[type="submit"]:focus:enabled,
+input[type="submit"]:hover:enabled,
+input[type="reset"]:focus:enabled,
+input[type="reset"]:hover:enabled,
+input[type="button"]:focus:enabled,
+input[type="button"]:hover:enabled {
+  background-color: #982c61;
+  border-color: #982c61;
+  color: #f9f9f9;
+  outline: 0;
+}
+
+textarea,
+select,
+input {
+  color: #4a4a4a;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+textarea:focus,
+select:focus,
+input:focus {
+  border: 1px solid #1d7484;
+  outline: 0;
+}
+
+input[type="checkbox"]:focus {
+  outline: 1px dotted #1d7484;
+}
+
+label,
+legend,
+fieldset {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
