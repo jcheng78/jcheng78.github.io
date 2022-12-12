@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="form.js"></script>
+    <script defer src="validation.js"></script>
     <link rel="stylesheet" href="./custom.css" type="text/css" />
+    
 </head>
 
 <body>
@@ -63,11 +64,11 @@
 
 
 
-
+    
     <form id="form" name="form" action="https://httpbin.org/post" method="post" >
         
         <h3>Contact Me</h3>
-
+        <div id="error" name="error"></div>
         <h4>Name</h4>
         <input type="text" required placeholder="John Doe" id="name" >
         <h4>Email</h4>
