@@ -64,8 +64,7 @@ body {
 
 img{
   margin-top: 10px;
-  width:35%;
-  
+  width:600px;
 }
 
 #aboutme h2{
@@ -75,7 +74,7 @@ img{
 #aboutme{
   text-align: left;
   margin:auto;
-  width: 1000px;
+  width: 100%;
 
 }
 #education{
@@ -152,6 +151,17 @@ a:hover {
 a:visited {
   color: #144f5a;
 }
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  img{
+    width:100%;
+  }
+  body{width: 100%;}
+}
+
+
+
 
 
 
